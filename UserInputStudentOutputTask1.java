@@ -11,6 +11,6 @@ public class UserInputStudentOutputTask1 {
 		UserInput userInput = new UserInput();
 
 		//Task 1
-		//System.out.println(userInput.sayHello());
+		System.out.println(userInput.sayHello());
 	}
 }

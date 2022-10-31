@@ -11,6 +11,7 @@ public class UserInputStudentOutputTask3 {
 	public static void main(String[] args) {
 		UserInput userInput = new UserInput();
 
-		//System.out.println(Arrays.toString(userInput.readTenNames()));
+		System.out.println(Arrays.toString(userInput.readTenNames()));
 	}
 }
+
