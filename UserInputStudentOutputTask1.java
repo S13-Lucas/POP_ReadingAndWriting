@@ -5,6 +5,7 @@
  * @since 2020
  */
 
+
 public class UserInputStudentOutputTask1 {
 
 	public static void main(String[] args) {

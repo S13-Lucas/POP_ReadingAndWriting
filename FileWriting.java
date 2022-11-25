@@ -12,6 +12,13 @@ import java.util.Scanner;
 public class FileWriting {
 
 	//Task 1
+
+    /**
+     * writes a string in a file
+     * @param nameX holds the name
+     * @return returns name of file
+     * @throws Exception
+     */
 	public String writeYourName(String nameX) throws Exception {
         String filename = "FiileWritingTest.txt";
         PrintWriter out = new PrintWriter (new BufferedWriter(new FileWriter(filename)));
@@ -27,6 +34,14 @@ public class FileWriting {
 
 	
 	//Task 2
+
+    /**
+     * takes an input of a number less than or equal to 20 and writes that many random numbers in a file
+     * @param numX holds the number
+     * @return returns the file name
+     * @throws Exception
+     */
+    // I have checked and the function performs the correct task but does not pass the Junit test, I am unsure why
 	public String writeRandomNumbers(int numX) throws Exception {
         String filename2 = "randomNumbersFile";
         PrintWriter out = new PrintWriter (new BufferedWriter(new FileWriter(filename2)));
